@@ -8,4 +8,4 @@ metadata:
 spec:
   # TODO(user): Add fields here
   serviceurl: http://192.168.49.1:9000/
-  endpoint: o2ims-infrastructureInventory/api_versions
+  endpoint: o2ims-infrastructureInventory/v1

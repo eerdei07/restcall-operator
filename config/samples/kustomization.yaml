@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- call_v1alpha1_restcall.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

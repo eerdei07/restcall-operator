@@ -1,0 +1,11 @@
+apiVersion: call.restcall/v1alpha1
+kind: Restcall
+metadata:
+  labels:
+    app.kubernetes.io/name: restcall-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: restcall-sample
+spec:
+  # TODO(user): Add fields here
+  serviceurl: http://192.168.49.1:9000/
+  endpoint: o2ims-infrastructureInventory/v1/deploymentManagers/c765516a-a84e-30c9-b954-9c3031bf71c8
